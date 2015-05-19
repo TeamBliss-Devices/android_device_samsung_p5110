@@ -1,0 +1,26 @@
+[
+    {
+        "remote": "cm",
+        "repository": "android_device_samsung_p5100",
+        "target_path": "device/samsung/p5100",
+        "revision": "cm-12.1"
+    },
+    {
+        "remote": "cm",
+        "repository": "android_device_samsung_omap4-common",
+        "target_path": "device/samsung/omap4-common",
+        "revision": "cm-12.1"
+    },
+    {
+        "remote": "github",
+        "repository": "Dhollmen/Dhollmen_Kernel",
+        "target_path": "kernel/samsung/espresso10",
+        "revision": "master"
+    },
+    {
+        "remote": "TeamBliss-Devices",
+        "repository": "android_hardware_samsung",
+        "target_path": "hardware/samsung",
+        "revision": "lp5.1-n8x"
+    }
+]

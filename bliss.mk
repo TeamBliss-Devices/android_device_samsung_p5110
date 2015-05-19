@@ -23,14 +23,14 @@ TARGET_SCREEN_HEIGHT := 480
 TARGET_SCREEN_WIDTH := 1280
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/bliss/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/p5110/full_p5110.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := p5110
-PRODUCT_NAME := cm_p5110
+PRODUCT_NAME := bliss_p5110
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-P5110
 PRODUCT_MANUFACTURER := samsung
